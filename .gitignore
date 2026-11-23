@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local runtime data (vector DB, simulated mail server, test transcripts)
+chroma_db/
+outbox.log
+results*.json
+
+# Your own notes, prompts, transcripts and screenshots of test runs
+notes/
+private/
+transcripts/
+findings-private/
+
+# Secrets / env
+.env
+*.env
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
